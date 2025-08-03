@@ -1,9 +1,9 @@
 # Fullstack
 ## Part 0:
-### 0.1: read already
-### 0.2: read already
-### 0.3: read already
-### 0.4: 
+### 0.1: HTML read already
+### 0.2: CSS read already
+### 0.3: HTML Forms read already
+### 0.4: Creating a new note by writing text and clicking the Save button:
 ```mermaid
 sequenceDiagram
     participant browser
@@ -44,7 +44,7 @@ sequenceDiagram
     Note right of browser: Browser runs callback to render updated note list
 ```
 
-### 0.5:
+### 0.5: Going to the single-page app version of the notes app:
 ```mermaid
 sequenceDiagram
     participant browser
@@ -75,7 +75,7 @@ sequenceDiagram
     Note right of browser: JS renders notes dynamically on page
 ```
 
-### 0.6:
+### 0.6: Creating a new note using the single-page version of the app: 
 ```mermaid
 sequenceDiagram
     participant browser
@@ -90,5 +90,5 @@ sequenceDiagram
     server-->>browser: 201 Created / success response
     deactivate server
 
-    browser->>browser: JavaScript updates the notes view without reloading
+    browser->>browser. : JavaScript updates the notes view without reloading
 ```
